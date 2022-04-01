@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ad343a73.css",
+    "main.js": "/portfolio/static/js/main.f9027742.js",
+    "static/js/415.78a7ec11.chunk.js": "/portfolio/static/js/415.78a7ec11.chunk.js",
+    "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Mukta-SemiBold.woff2": "/portfolio/static/media/Mukta-SemiBold.8847524b59c5af34a51b.woff2",
+    "static/media/Mukta-ExtraBold.woff2": "/portfolio/static/media/Mukta-ExtraBold.3f9e54f482d78233ed9b.woff2",
+    "static/media/PTSans-Bold.woff2": "/portfolio/static/media/PTSans-Bold.2611f07b16302b701de7.woff2",
+    "static/media/Inspiration-Regular.woff": "/portfolio/static/media/Inspiration-Regular.7d5894a896fafc9751a3.woff",
+    "static/media/photo_2022-03-31_15-03-55.jpg": "/portfolio/static/media/photo_2022-03-31_15-03-55.2c606d716bfa72b9551b.jpg",
+    "static/media/Inspiration-Regular.woff2": "/portfolio/static/media/Inspiration-Regular.d7ce74915490520cc392.woff2",
+    "static/media/Montserrat-Medium.woff2": "/portfolio/static/media/Montserrat-Medium.1aeba0043ee45ac04483.woff2",
+    "static/media/Padauk-Regular.woff2": "/portfolio/static/media/Padauk-Regular.cbd1557a99492c2aedb1.woff2",
+    "static/media/photo-1558025137-0b406e9cc169.jpg.jpg": "/portfolio/static/media/photo-1558025137-0b406e9cc169.jpg.503563ee1e0773fc44f5.jpg",
+    "static/media/photo-1603458319957-8df73cb52511.jpg.jpg": "/portfolio/static/media/photo-1603458319957-8df73cb52511.jpg.39ddca2d5530f837efd7.jpg",
+    "static/media/DMSans-Regular.woff": "/portfolio/static/media/DMSans-Regular.8068db41395d7fe3f519.woff",
+    "static/media/photo-1568502702280-348cf12c6d2c.jpg.jpg": "/portfolio/static/media/photo-1568502702280-348cf12c6d2c.jpg.4116516ea00a935a9176.jpg",
+    "static/media/Jost-Regular.woff": "/portfolio/static/media/Jost-Regular.940d5267da5f636506cc.woff",
+    "static/media/photo-1511376777868-611b54f68947.jpg.jpg": "/portfolio/static/media/photo-1511376777868-611b54f68947.jpg.71a527099c529660a190.jpg",
+    "static/media/Jost-Bold.woff2": "/portfolio/static/media/Jost-Bold.24fac0a83f5895e51123.woff2",
+    "index.html": "/portfolio/index.html",
+    "main.ad343a73.css.map": "/portfolio/static/css/main.ad343a73.css.map",
+    "main.f9027742.js.map": "/portfolio/static/js/main.f9027742.js.map",
+    "415.78a7ec11.chunk.js.map": "/portfolio/static/js/415.78a7ec11.chunk.js.map",
+    "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad343a73.css",
+    "static/js/main.f9027742.js"
+  ]
+}
