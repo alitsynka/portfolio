@@ -1,13 +1,39 @@
-.container{
-	background-color: lightyellow;
+@import '../../common/sass/variables.scss';
+
+@font-face {
+	font-family: 'Padauk';
+	src:url("../../assets/fonts/Padauk-Regular.woff2");
+}
+@font-face {
+	font-family: 'Montserrat';
+	src:url("../../assets/fonts/Montserrat-Medium.woff2");
+}
+.skill {
+	width: 250px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	 .icon {
+		font-size: 60px;
+		color: $primaryColor;
+	}
+.mailTitle {
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;;
+	color: white;
+	letter-spacing: 0.35em;
+	line-height: 1.5;
 }
-.photo{
-	margin-top: 20px;
-	height: 100px;
-	width: 70px;
-	background-color: #282c34;
+.description {
+	letter-spacing: 0.05em;
+	color: #ddd;
+	font-family: 'Padauk', sans-serif;
+	font-weight: bold;
+	text-transform: initial;
+	text-align: center;
+}
 }

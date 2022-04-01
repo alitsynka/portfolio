@@ -2,35 +2,35 @@
 	font-family: 'Mukta-ExtraBold';
 	src:url("../assets/fonts/Mukta-ExtraBold.woff2");
 }
-
+@import "../common/sass/variables";
 /*Jost-Regular.woff*/
 
 .Header{
-
 	margin: 0px 0 30px;
+	//width: 160px;
 	font-family:'Mukta-ExtraBold', Sans-serif;
 	font-weight: 400;
-	font-size: 1.5em;
-	/*font-size: 24px;*/
+	//font-size: 1.5em;
+	//font-size: 24px;
 	text-transform: uppercase;
 	letter-spacing: -.035em;
 	line-height: 1.1;
-	color: #fff;
+	color: $textColor;
 	position: relative;
+		h2{
+			font-size: 34px;
+			margin-top: 0px;
+			padding-top: 20px;
+		}
+	&::before {
+		content: "";
+		background: $primaryColor;
+		width: 70px;
+		height: 4px;
+		position: absolute;
+		bottom: -20px;
+		left: 50%;
+		transform: translate(-50%,50%);
+	}
 }
-.Header h2{
-	height: 30px;
-	margin: 20px 0px;
-}
-.Header::before {
-	content: "";
-	background: #c79864;
-	width: 70px;
-	height: 4px;
-	position: absolute;
-	bottom: -30px;
-	left: 50%;
-	transform: translate(-50%,50%);
-}
-
 

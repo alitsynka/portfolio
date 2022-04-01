@@ -1,7 +1,40 @@
- .Nav{
-     border:2px solid #282c34;
-     display: flex;
-     justify-content: space-around;
-     width: 300px;
-     margin-right: 50px;
- }
+@font-face {
+  font-family: 'DM Sans';
+  src: url("../../assets/fonts/DMSans-Regular.woff");
+}
+
+.Nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 340px;
+  margin-right: 20px;
+  //position: fixed;
+  z-index: 1;
+
+  a {
+    font-family: 'DM Sans', sans-serif;
+    color: #999;
+    text-decoration: underline;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 0 5px;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: overline;
+      color: #c79864;
+    }
+  }
+
+  .active {
+    color: #c79864;
+    //text-decoration: overline;
+  }
+  //@media screen and (max-width: 768px){
+  //  margin-right: 0px;
+  //}
+}

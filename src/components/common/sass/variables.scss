@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Jost-Light';
+  /*src:url("../src/components/assets/fonts/Inspiration-Regular.woff");*/
+  src:url("../../assets/fonts/Jost-Regular.woff");
+}
+@font-face {
+  font-family: 'Jost-Bold';
+  src:url("../../assets/fonts/Jost-Bold.woff2");
+}
+
+$textColor:#fff;
+$primaryColor: #c79864;
+$bgColor: #202020;
+$bgSecondColor: #333;
+$blackColor: #111;
+$fontFamily:'Jost-Light', sans-serif;
+$fontFamilyBold:'Jost-Bold', sans-serif
