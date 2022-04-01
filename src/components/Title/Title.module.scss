@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'Mukta-ExtraBold';
+	src:url("../assets/fonts/Mukta-ExtraBold.woff2");
+}
+
+/*Jost-Regular.woff*/
+
+.Header{
+
+	margin: 0px 0 30px;
+	font-family:'Mukta-ExtraBold', Sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+	/*font-size: 24px;*/
+	text-transform: uppercase;
+	letter-spacing: -.035em;
+	line-height: 1.1;
+	color: #fff;
+	position: relative;
+}
+.Header h2{
+	height: 30px;
+	margin: 20px 0px;
+}
+.Header::before {
+	content: "";
+	background: #c79864;
+	width: 70px;
+	height: 4px;
+	position: absolute;
+	bottom: -30px;
+	left: 50%;
+	transform: translate(-50%,50%);
+}
+
+

@@ -1,0 +1,13 @@
+.container{
+	background-color: lightyellow;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.photo{
+	margin-top: 20px;
+	height: 100px;
+	width: 70px;
+	background-color: #282c34;
+}

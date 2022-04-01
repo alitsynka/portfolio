@@ -1,0 +1,38 @@
+.Contacts{
+	display: flex;
+	height: 500px;
+	background-color: pink;
+	justify-content: center;
+}
+.container{
+	height: 80%;
+	width: 1000px;
+	border: 2px solid #282c34;
+	box-sizing: border-box;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.header{
+	background-color: lightyellow;
+	font-size: 22px;
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 60%;
+	width: 70%;
+	border: 2px solid #282c34;
+	background-color: darkgrey;
+}
+.submit{
+	width: 70px;
+	/*border: 2px solid #282c34;*/
+	/*height: 50px;*/
+	background-color: lightyellow;
+	font-size: 22px;
+}
